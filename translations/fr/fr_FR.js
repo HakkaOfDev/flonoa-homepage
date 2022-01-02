@@ -10,7 +10,7 @@ export const fr_FR = {
   },
   pages: {
     home: {
-      introduction: 'Bonjour, je m’appelle Florine Leroy, j’ai 19 ans et je suis en deuxième année de licence DNMADE option images et événements. Je pratique de la gymnastique rythmique depuis 10 ans et je me suis passionnée dans l\'art, le design et la mode..'
+      introduction: 'Bonjour, je m’appelle Florine Leroy, j’ai 19 ans et je suis en deuxième année de licence DNMADE option images et événements. Je pratique de la gymnastique rythmique depuis 10 ans et je suis passionnée par l\'art, le design et la mode..'
     },
     portfolio: {
       title: 'Découvrez toutes mes réalisations',
