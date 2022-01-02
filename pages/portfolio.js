@@ -148,7 +148,7 @@ const Portfolio = () => {
             alignItems='stretch'
             as='section'>
             {displayProjects.map(({ title, cover, link, tags }) => (
-              <ProjectCard title={t(title)} cover={cover} link={link} tags={tags.map((tag) => t(tag))} />
+              <ProjectCard key={link} title={t(title)} cover={cover} link={link} tags={tags.map((tag) => t(tag))} />
             ))}
           </SimpleGrid>
         </VStack>
