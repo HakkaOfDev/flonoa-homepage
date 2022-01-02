@@ -1,9 +1,9 @@
 import { Box, Heading, HStack, Text, useColorModeValue, VStack } from '@chakra-ui/react'
 import NextLink from 'next/link'
 
-const SkillCard = ({ title, key, description, icon, link, tags }) => {
+const SkillCard = ({ title, description, icon, link, tags }) => {
   return (
-    <Box as='article' key={key} cursor='pointer'>
+    <Box as='article' cursor='pointer'>
       <NextLink href={link} passHref>
         <VStack
           spacing={0}

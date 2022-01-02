@@ -76,7 +76,7 @@ const Skills = () => {
         alignItems='stretch'
         as='section'>
         {displaySkills.map(({ title, description, icon, link, tags }) => (
-          <SkillCard title={t(title)} key={t(title)} description={t(description)} icon={icon} link={link}
+          <SkillCard title={t(title)} description={t(description)} icon={icon} link={link}
                      tags={tags.map((tag) => t(tag))} />
         ))}
       </SimpleGrid>

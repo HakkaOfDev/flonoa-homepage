@@ -1,9 +1,9 @@
 import { Box, Heading, Image, Skeleton, Text, useColorModeValue, VStack } from '@chakra-ui/react'
 import NextLink from 'next/link'
 
-const ProjectCard = ({ title, key, cover, link, tags }) => {
+const ProjectCard = ({ title, cover, link, tags }) => {
   return (
-    <Box as='article' key={key} cursor='pointer'>
+    <Box as='article' cursor='pointer'>
       <NextLink href={link} passHref>
         <VStack
           justifyContent='center'
