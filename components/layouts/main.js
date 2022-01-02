@@ -16,10 +16,11 @@ const Main = ({ children, router }) => {
         <meta name='twitter:site' content='@Leroyflorine1' />
         <meta name='twitter:creator' content='@Leroyflorine1' />
         <meta name='twitter:image' content='/images/avatar.jpg' />
-        <meta property='og:site_name' content='flonoa.fr' />
+        <meta property='og:site_name' content='Florine LEROY | www.flonoa.fr' />
         <meta property='og:type' content='website' />
+        <meta property='og:description' content="Bonjour à toi, je suis Florine LEROY, mon site a été creer dans le but que vous puissiez me découvrir autant professionnellement que personnellement. En espérant qu'il vous plaira, une bonne année !" />
         <meta property='og:image' content='/images/avatar.png' />
-        <title>flonoa.fr</title>
+        <title>www.flonoa.fr</title>
       </Head>
 
       <NavBar path={router.asPath} />
