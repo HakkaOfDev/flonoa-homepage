@@ -32,7 +32,7 @@ export const fr_FR = {
           title: 'Sewn Designs'
         },
         creative_shapes: {
-          title: 'Creative Shapes'
+          title: 'Formes Créatives'
         }
       },
       tags: {
@@ -56,6 +56,9 @@ export const fr_FR = {
         },
         indesign: {
           description: 'Création de pdfs, maquettes, chartes graphiques, documents intéractifs, etc...'
+        },
+        procreate: {
+          description: 'Stabilisation des traits, carnet de croquis, pinceaux, encrage, interface de réglages, sélection de groupe, historique des couleurs, etc...'
         },
         tags: {
           application: 'Application'

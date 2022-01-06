@@ -6,7 +6,7 @@ import '../translations/i18n'
 export default class Document extends NextDocument {
   render() {
     return (
-      <Html lang='en'>
+      <Html lang='fr'>
         <Head />
         <body>
         <ColorModeScript initialColorMode={theme.config.initialColorMode} />

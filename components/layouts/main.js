@@ -18,7 +18,8 @@ const Main = ({ children, router }) => {
         <meta name='twitter:image' content='/images/avatar.jpg' />
         <meta property='og:site_name' content='Florine LEROY | www.flonoa.fr' />
         <meta property='og:type' content='website' />
-        <meta property='og:description' content="Bonjour à toi, je suis Florine LEROY, mon site a été créé dans le but que vous puissiez me découvrir autant professionnellement que personnellement. En espérant qu'il vous plaira !" />
+        <meta property='og:description'
+              content="Bonjour à toi, je suis Florine LEROY, mon site a été créé dans le but que vous puissiez me découvrir autant professionnellement que personnellement. En espérant qu'il vous plaira !" />
         <meta property='og:image' content='/images/avatar.png' />
         <title>www.flonoa.fr</title>
       </Head>

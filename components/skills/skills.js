@@ -5,6 +5,7 @@ import { useState } from 'react'
 import { Button, Heading, HStack, SimpleGrid, VStack } from '@chakra-ui/react'
 import SkillCard from './skill-card'
 import { useTranslation } from 'react-i18next'
+import { BsPencilSquare } from '@react-icons/all-files/bs/BsPencilSquare'
 
 const Skills = () => {
   const skills = [
@@ -27,6 +28,13 @@ const Skills = () => {
       description: 'pages.about.skills.indesign.description',
       tags: ['pages.about.skills.tags.application'],
       icon: <SiAdobeindesign />,
+      link: 'https://www.adobe.com/fr/products/indesign.html'
+    },
+    {
+      title: 'Procreate',
+      description: 'pages.about.skills.procreate.description',
+      tags: ['pages.about.skills.tags.application'],
+      icon: <BsPencilSquare />,
       link: 'https://www.adobe.com/fr/products/indesign.html'
     }
   ]

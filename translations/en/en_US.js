@@ -58,6 +58,9 @@ export const en_US = {
         indesign: {
           description: 'Building of pdfs, models, graphic charts, interactive documents, etc...'
         },
+        procreate: {
+          description: 'Stroke stabilization, sketchbook, brushes, inking, adjustments interface, group select, color history, etc...'
+        },
         tags: {
           application: 'Application'
         }

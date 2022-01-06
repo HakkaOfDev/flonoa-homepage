@@ -1,7 +1,7 @@
-import { Box, Heading, Image, Skeleton, Text, useColorModeValue, VStack } from '@chakra-ui/react'
+import { Badge, Box, Heading, HStack, Image, Skeleton, Text, useColorModeValue, VStack } from '@chakra-ui/react'
 import NextLink from 'next/link'
 
-const ProjectCard = ({ title, cover, link, tags }) => {
+const ProjectCard = ({ title, cover, link, tags, date }) => {
   return (
     <Box as='article' cursor='pointer'>
       <NextLink href={link} passHref>
@@ -22,12 +22,15 @@ const ProjectCard = ({ title, cover, link, tags }) => {
             alt={title}
             src={cover}
             fit='cover'
-            fallback={<Skeleton w='full' h='full' />}
+            fallback={<Skeleton w={600} h={150} />}
           />
           <VStack p={3} spacing={1} alignItems='flex-start' flex={1} w='full'>
-            <Heading isTruncated size='xs'>
-              {title}
-            </Heading>
+            <HStack spacing={1} w='full' justify='space-between'>
+              <Heading isTruncated size='xs'>
+                {title}
+              </Heading>
+              <Badge colorScheme='pink'>{date}</Badge>
+            </HStack>
             <Text fontSize='xs' color='customPink' textTransform='uppercase'>
               {tags.join(', ')}
             </Text>
