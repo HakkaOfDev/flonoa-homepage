@@ -1,6 +1,7 @@
 import { ILLUSTRATIONS } from './illustrations'
 import { PENCIL } from './pencil'
 import { LINER } from './liner'
+import { OTHERS } from './others'
 
 export const PROJECTS = [
   {
@@ -38,14 +39,8 @@ export const PROJECTS = [
     date: '12/2019',
     tags: ['pages.portfolio.tags.school']
   },
-  {
-    title: 'pages.portfolio.projects.sewn_designs.title',
-    link: '/projects/sewn-designs',
-    cover: '/projects/sewn-designs/illu2.png',
-    date: '06/2020',
-    tags: ['pages.portfolio.tags.others']
-  },
   ...ILLUSTRATIONS,
   ...LINER,
-  ...PENCIL
+  ...PENCIL,
+  ...OTHERS
 ]
